@@ -39,7 +39,7 @@ namespace BranchesAndLoops
             }
         }
 
-        static void Main()
+        static void Looper()
         {
             //ExploreIf();
             int counter = 0;
@@ -57,6 +57,17 @@ namespace BranchesAndLoops
                 for (char column = 'a'; column < 'k'; column++)
                 {
                     Console.WriteLine($"The cell is ({row}, {column})");
+                }
+            }
+        }
+
+        static void Main() 
+        {
+            for(int i = 0; i < 21; i++)
+            {
+                if(i % 3 == 0) 
+                {
+                    Console.WriteLine($"{i} is divisible by 3");
                 }
             }
         }

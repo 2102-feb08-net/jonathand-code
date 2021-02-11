@@ -4,3 +4,4 @@
 # it will ignored.
 bin
 obj
+.vs

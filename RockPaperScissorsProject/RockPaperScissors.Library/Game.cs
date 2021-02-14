@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RockPaperScissors
+namespace RockPaperScissors.Library
 {
     public class Game
     {

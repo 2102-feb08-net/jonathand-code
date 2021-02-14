@@ -1,16 +1,9 @@
 ﻿using System;
 
-namespace RockPaperScissors
+namespace RockPaperScissors.Library
 {
     public class ComputerPlayer : Player
     {
-        //private static int wins;
-        //public static int Wins
-        //{
-        //    get { return wins; }
-        //    set { wins = value; }
-        //}
-
         public ComputerPlayer()
         {
             //Wins = 0;

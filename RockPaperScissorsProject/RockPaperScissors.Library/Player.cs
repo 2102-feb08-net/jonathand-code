@@ -1,23 +1,16 @@
 ﻿using System;
-namespace RockPaperScissors
+namespace RockPaperScissors.Library
 {
     public class Player
     {
         private string move;
-        //private static int wins;
-        public string Move
+        public virtual string Move
         {
             get { return move; }
             set { move = value; }
         }
-        //public static int Wins
-        //{
-        //    get { return wins; }
-        //    set { wins = value; }
-        //}
         public Player()
         {
-            //Wins = 0;
         }
 
         public bool IsValidAnswer(string m)
